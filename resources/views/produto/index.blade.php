@@ -42,7 +42,7 @@
                                   <div class="btn-group">
                                     {!! Form::open(array('route'=>['produto.destroy',$produto->id],'method'=>'DELETE')) !!}
                                     
-                                    {{ link_to_route('produto.show', 'Visualizar ',[$produto->id],['class'=>'btn btn-warning']) }}
+                                    <!--{{ link_to_route('produto.show', 'Visualizar ',[$produto->id],['class'=>'btn btn-warning']) }}-->
                                     {{ link_to_route('produto.edit', 'Editar', [$produto->id], ['class'=>'btn btn-primary']) }}
 
                                     {!! Form::button('Apagar', ['type'=>'submit','class'=>'btn btn-danger']) !!}

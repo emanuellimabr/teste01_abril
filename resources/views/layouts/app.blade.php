@@ -27,7 +27,7 @@
 
                 <ul class="list-unstyled components">
                     <li>
-                        <a href="#">
+                        <a href="/">
                             <i class="glyphicon glyphicon-home"></i>
                             Início
                         </a>
@@ -60,8 +60,8 @@
                             Pedidos
                         </a>
                         <ul class="collapse list-unstyled" id="pedidoSubmenu">
-                            <li><a href="#">Adicionar Pedido</a></li>
-                            <li><a href="#">Listar Pedidos</a></li>
+                            <li><a href="{{ route('pedido.create') }}">Adicionar Pedido</a></li>
+                            <li><a href="{{ route('pedido.index') }}">Listar Pedidos</a></li>
                             <!--<li><a href="#">Page 3</a></li>-->
                         </ul>
                     </li>                   
